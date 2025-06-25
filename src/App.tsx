@@ -21,6 +21,9 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <button className="mt-4 bg-primary text-white rounded-md px-4 py-2 hover:bg-primary/90 transition-colors">
+          Button from shadcn UI hello
+        </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
